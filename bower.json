@@ -2,7 +2,9 @@
   "name": "stravaspoons",
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "mapbox.js": "^3.1.1"
+  },
   "devDependencies": {
     "chai": "^4.1.0",
     "mocha": "^3.4.2"

@@ -25,6 +25,7 @@
         "*://*.strava.com/*"
       ],
       "js": [
+        "bower_components/mapbox.js/mapbox.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",

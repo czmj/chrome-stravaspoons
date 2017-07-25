@@ -16,6 +16,7 @@ function weatherspoonsApiRequest(options) {
 function weatherspoonsApiRequestSuccess() { 
     var response = JSON.parse(this.responseText)
     console.log(collectPubs(response.regions));
+    console.log(L);
 }
 
 function weatherspoonsApiRequestError() { 
